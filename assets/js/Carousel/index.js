@@ -46,6 +46,13 @@ class Carousel {
 
 	}
 
+	/**
+	 *
+	 * @param index - index of current elem
+	 * @param length
+	 * @returns {number}
+	 */
+
 	static getNextIndex (index, length) {
 		return (index + 1) % length;
 
